@@ -3,10 +3,12 @@ import {NavLink} from 'react-router-dom';
 
 const AboutPage = () => (
     <div>
-        <h1>About</h1>
+        <div>
+            <h1>About title and my picture</h1>
+        </div>
         <p>tex text text text text</p>
         <a>here's link to sm</a>
-        <NavLink to="/" activeClassName="is-active" exact={true}>Back Home</NavLink>
+        <NavLink to="/" exact={true}>Back Home</NavLink>
     </div>
 );
 

@@ -3,9 +3,17 @@ import {NavLink} from 'react-router-dom';
 
 const HomePage = () => (
     <div>
-        <h1>Welcome</h1>
-        <p>This is my site. Take a look around.</p>
-        <NavLink to="/contact" activeClassName="is-active">Contact</NavLink>
+        <div>
+            <h1>This will be shared space for logo and brand name</h1>
+        </div>
+        <p>This is field for subtitle text</p>
+        <div>
+            This will be navigation panel
+            <NavLink to="/design">design</NavLink>
+            <NavLink to="/code">code</NavLink>
+            <NavLink to="/about">about</NavLink>
+            <NavLink to="/contact">contact</NavLink>
+        </div>
     </div>
 );
 

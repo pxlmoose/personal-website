@@ -3,10 +3,15 @@ import {NavLink} from 'react-router-dom';
 
 const ContactPage = () => (
     <div>
-        <h1>Contact</h1>
+        <h1>Contact title</h1>
         <p>tex text text text text</p>
-        <a>here's link to sm</a>
-        <NavLink to="/" activeClassName="is-active" exact={true}>Back Home</NavLink>
+        <div>
+            Here are links on grid to all social medias plus email
+            <a>here's link to sm</a>
+            <a>here's link to sm</a>
+            <a>here's link to sm</a>
+        </div>
+        <NavLink to="/"exact={true}>link Back Home</NavLink>
     </div>
 );
 
