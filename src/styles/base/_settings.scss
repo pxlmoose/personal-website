@@ -1,10 +1,17 @@
+//Font
+$page-font: 'Montserrat', sans-serif;
+
 //Colors
+$light: #efefef;
+$dark: #161616;
+$pink: #bf0040;
+$blue: #5900a6;
 
+//Sizing, 1rem = 10px
 
-//Sizing
+$s-size: 1.6rem;
+$m-size: 3.2rem;
+$l-size: 8.8rem;
+$xl-size: 10rem;
 
-$s-size: 1.2rem;
-$m-size: 1.6rem;
-$l-size: 3.2rem;
-$xl-size: 4.8rem;
-$desktop-breakpoint: 45rem;
+//$desktop-breakpoint: 45rem;
