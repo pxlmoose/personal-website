@@ -3,16 +3,26 @@ import {NavLink} from 'react-router-dom';
 
 const HomePage = () => (
     <div>
-        <div>
-            <h1>This will be shared space for logo and brand name</h1>
+        <div className="content-container">
+            <div className="title-container">
+                <img className="image" src="/images/logo.png" />
+                <h1 className="banner-title">PXL///RNNR</h1>
+            </div>
+            <h2 className="subtitle">Web designer & developer</h2>
         </div>
-        <p>This is field for subtitle text</p>
-        <div>
-            This will be navigation panel
-            <NavLink to="/design">design</NavLink>
-            <NavLink to="/code">code</NavLink>
-            <NavLink to="/about">about</NavLink>
-            <NavLink to="/contact">contact</NavLink>
+        <div className="link-grid">
+            <div className="link-grid_box">
+                <NavLink className="link-grid_link" to="/design">design</NavLink>
+            </div>
+            <div className="link-grid_box">
+                <NavLink className="link-grid_link" to="/code">code</NavLink>
+            </div>
+            <div className="link-grid_box">
+                <NavLink className="link-grid_link" to="/about">about</NavLink>
+            </div>
+            <div className="link-grid_box">
+                <NavLink className="link-grid_link" to="/contact">contact</NavLink>
+            </div>
         </div>
     </div>
 );

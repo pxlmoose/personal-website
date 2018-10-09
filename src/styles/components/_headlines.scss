@@ -1,1 +1,22 @@
 // constains styling for single title, title + picture and subtitle
+
+.banner-title {
+    font-size: $xl-size;
+    font-weight: 900;
+    line-height: .1;
+    letter-spacing: 12px;
+    margin-left: $s-size;
+}
+
+.title {
+
+}
+
+.subtitle {
+    font-size: $p-size;
+    margin-left: $l-size;
+    margin-top: $s-size;
+    font-weight: 600;
+    letter-spacing: 8px;
+    word-spacing: 20px;
+}
