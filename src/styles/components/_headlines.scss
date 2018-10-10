@@ -9,7 +9,11 @@
 }
 
 .title {
-
+    font-size: $l-size;
+    font-weight: 700;
+    margin-left: $l-size;
+    margin-top: $xl-size;
+    letter-spacing: 8px;
 }
 
 .subtitle {

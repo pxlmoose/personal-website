@@ -1,1 +1,31 @@
 // contains all styling for skills list
+
+.list-grid {
+    width: 800px;
+    margin-left: 44px;;
+    margin-top: $xl-size;
+}
+
+.list-intro {
+    font-size: $p-size;
+    font-weight: 900;
+    margin-bottom: $m-size;
+}
+
+.list-element {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 7px;
+    border-bottom: solid $dark 3px;
+    line-height: 2.2;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 $s-size;
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+

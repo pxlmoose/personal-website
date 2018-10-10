@@ -3,16 +3,23 @@ import {NavLink} from 'react-router-dom';
 
 const DesignPage = () => (
     <div>
-        <h1>Design title</h1>
-        <p>text text text</p>
-        <ul>
-            list of my design skills and how good I think I am
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-        </ul>
-        <a>link to behance</a>
-        <NavLink to="/" exact={true}>Link back home</NavLink>
+        <div className="content-container">
+            <h1 className="title">Design</h1>
+            <p className="text-content">This is where we turn chaos into solid form. To me, design at it's core is about pen and 
+            paper. I draw until I can find one coherent idea that can be translated into digital form.</p>
+        </div>
+        <a className="social-link" href="https://www.behance.net/newme0071342" target="_blank">Go to my Behance</a>
+        <div className="list-grid">
+            <ul>
+                <p className="list-intro">What I create with</p>
+                <li className="list-element"><span>Pen and Paper</span><span>2016</span></li>
+                <li className="list-element"><span>Inkscape</span><span>2017</span></li>
+                <li className="list-element"><span>Illustrator</span><span>2018</span></li>
+                <li className="list-element"><span>Photography</span><span>2015</span></li>
+            </ul>
+        </div>
+        
+        <NavLink className="home-link" to="/" exact={true}>Link back home</NavLink>
     </div>
 );
 

@@ -46,9 +46,20 @@
 }
 
 .home-link {
-
+    position: fixed;
+    top: $l-size;
+    right: $l-size;
+    z-index:1;
 }
 
 .social-link {
-
+    text-decoration: none;
+    color: $light;
+    margin-left: $l-size;
+    background: $dark;
+    transition: 300ms;
+    &:hover {
+        color: $dark;
+        background: $light;
+    }
 }
