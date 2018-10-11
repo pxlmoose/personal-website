@@ -22,7 +22,7 @@ const ContactPage = () => (
                 <a className="link-grid_link" href="mailto:newme007@gmail.com">email</a>
             </div>
         </div>
-        <NavLink className="home-link" to="/"exact={true}>link Back Home</NavLink>
+        <NavLink className="home-link" to="/"exact={true}>Back</NavLink>
     </div>
 );
 

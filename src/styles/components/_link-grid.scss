@@ -6,28 +6,30 @@
 .link-grid {
     display: flex;
     flex-direction: row;
-    margin-left: $l-size;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: $l-size;
     align-items: center;
     align-content: center;
-    width: 1200px;
+    justify-content: space-evenly;
+    width: 100%px;
 }
 
 .link-grid_box {
     display: flex;
     align-items: center;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     margin-right: 30px;
     margin-top: $l-size;
     transition: 500ms;
     background: $dark;
     border: solid $light 6px;
     &:hover {
-        border: solid $dark 6px;
+        border: solid $pink 6px;
         background: $light;
         .link-grid_link {
-            color: $dark;
+            color: $pink;
             font-weight: 700;
         }
     }
@@ -38,28 +40,48 @@
     text-align: center;
     align-self: auto;
     margin: auto;
-    padding-top: 75px;
+    padding-top: 95px;
     color: $light;
     height: 100%;
     width: 100%;
-    font-weight: 500;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: $p-size;
 }
 
 .home-link {
     position: fixed;
-    top: $l-size;
-    right: $l-size;
+    top: $xl-size;
+    right: $xl-size;
     z-index:1;
+    text-decoration: none;
+    border: solid $pink 5px;
+    padding: 3px 6px;
+    transition: 300ms;
+    color: $pink;
+    font-weight: 700;
+    &:hover {
+        color: $light;
+        background:$pink;
+    }
 }
 
 .social-link {
     text-decoration: none;
     color: $light;
+    font-size: 50px;
     margin-left: $l-size;
     background: $dark;
     transition: 300ms;
+    padding: 4px 8px;
+    position: relative;
+    top: 0px;
+    left: 0px;
     &:hover {
-        color: $dark;
-        background: $light;
+        box-shadow: 2px 2px 0px $light, 4px 4px 0px $blue;
+        top: -4px;
+        left: -4px;
+        color: $light;
+        background: $dark;
     }
 }

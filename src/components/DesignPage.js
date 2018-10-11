@@ -8,7 +8,7 @@ const DesignPage = () => (
             <p className="text-content">This is where we turn chaos into solid form. To me, design at it's core is about pen and 
             paper. I draw until I can find one coherent idea that can be translated into digital form.</p>
         </div>
-        <a className="social-link" href="https://www.behance.net/newme0071342" target="_blank">Go to my Behance</a>
+        <a className="social-link" href="https://www.behance.net/newme0071342" target="_blank">I'm on Behance</a>
         <div className="list-grid">
             <ul>
                 <p className="list-intro">What I create with</p>
@@ -19,7 +19,7 @@ const DesignPage = () => (
             </ul>
         </div>
         
-        <NavLink className="home-link" to="/" exact={true}>Link back home</NavLink>
+        <NavLink className="home-link" to="/" exact={true}>Back</NavLink>
     </div>
 );
 
