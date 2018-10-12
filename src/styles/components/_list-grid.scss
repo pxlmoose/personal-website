@@ -4,12 +4,35 @@
     width: 800px;
     margin-left: 44px;;
     margin-top: $xl-size;
+    
+    @media (max-width: $mid-breakpoint) {
+       width: 100%;
+       margin-top: 200px;
+       margin-left: auto;
+       margin-right: auto; 
+    }
+
+    @media(max-width: $mobile-breakpoint) {
+        margin-top: 150px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.list-grid ul {
+    padding: 0;
 }
 
 .list-intro {
     font-size: $p-size;
     font-weight: 900;
     margin-bottom: $m-size;
+    margin-left: $m-size;
+
+    @media(max-width: $mobile-breakpoint) {
+        font-size: 2.4rem;
+    }
+
 }
 
 .list-element {
@@ -25,6 +48,17 @@
     padding: 0 $s-size;
     &:last-child {
         border-bottom: none;
+    }
+
+    @media (max-width: $mid-breakpoint) {
+        padding: 0 $m-size; 
+    }
+
+    @media(max-width: $mobile-breakpoint) {
+        font-size: $s-size;  
+        font-weight: 500;
+        padding: 0 $s-size;
+        border-bottom: solid $dark 1px;
     }
 }
 

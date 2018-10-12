@@ -2,7 +2,7 @@
 $page-font: 'Montserrat', sans-serif;
 
 //Colors
-$light: #efefef;
+$light: #F7F6F6;
 $dark: #161616;
 $pink: #bf0040;
 $blue: #5900a6;
@@ -15,4 +15,7 @@ $p-size: 3.6rem;
 $l-size: 8.8rem;
 $xl-size: 10rem;
 
-//$desktop-breakpoint: 45rem;
+//breakpoints
+
+$mid-breakpoint: 1080px;
+$mobile-breakpoint: 700px;

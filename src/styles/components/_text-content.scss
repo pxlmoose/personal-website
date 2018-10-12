@@ -7,6 +7,17 @@
     word-spacing: 4px;
     letter-spacing: 0px;
     align-self: flex-end;
+
+    @media (max-width: $mid-breakpoint) {
+        align-self: center;
+        margin: $p-size auto;
+        word-spacing: 3px;
+    }
+
+    @media(max-width: $mobile-breakpoint) {
+        margin: $p-size 9px;
+        font-size: 2.6rem;
+    }
 }
 
 .error {
@@ -21,4 +32,17 @@
     max-width: 640px;
     word-spacing: 4px;
     letter-spacing: 0px;
+
+    @media (max-width: $mid-breakpoint) {
+        margin-left: auto;
+        margin-right: auto;
+        word-spacing: 3px;
+        max-width: 540px;
+    }
+
+    @media (max-width: $mobile-breakpoint) {
+        font-size: 1.8rem;
+        margin-left: $s-size;
+        margin-right: $s-size;
+    }
 }

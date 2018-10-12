@@ -6,6 +6,20 @@
     line-height: .1;
     letter-spacing: 12px;
     margin-left: $s-size;
+
+    @media (max-width: $mid-breakpoint) {
+        font-size: $l-size;
+        margin-top: $l-size;
+        letter-spacing: 9px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    @media (max-width: $mobile-breakpoint) {
+        font-size: $p-size;
+        width: 100%;
+        margin-top: $m-size;
+    }
 }
 
 .title {
@@ -14,6 +28,17 @@
     margin-left: $l-size;
     margin-top: $xl-size;
     letter-spacing: 8px;
+    
+    @media (max-width: $mid-breakpoint) {
+        font-size: $l-size;
+        margin-left: auto;
+        margin-right: auto;
+        letter-spacing: 5px;
+    }
+
+    @media(max-width: $mobile-breakpoint) {
+        font-size: $p-size;
+    }
 }
 
 .subtitle {
@@ -23,5 +48,18 @@
     font-weight: 600;
     letter-spacing: 8px;
     word-spacing: 20px;
+
+    @media (max-width: $mid-breakpoint) {
+        font-size: $m-size;
+        margin: 0 auto;
+        word-spacing: 6px;
+        letter-spacing: 5px;
+    }
+
+    @media (max-width: $mobile-breakpoint) {
+        font-size: $s-size;
+        word-spacing: 2px;
+        letter-spacing: 2px;    
+    }
 }
 
