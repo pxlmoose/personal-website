@@ -2,7 +2,7 @@ import React from 'react';
 import {NavLink} from 'react-router-dom';
 
 const ContactPage = () => (
-    <div>
+    <div className="load-animation">
         <div className="content-container">
             <h1 className="title">Contact</h1>
             <p className="text-content">If you'd like to say hello, or see bit more of my work

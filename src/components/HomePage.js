@@ -2,7 +2,7 @@ import React from 'react';
 import {NavLink} from 'react-router-dom';
 
 const HomePage = () => (
-    <div>
+    <div className="load-animation">
         <div className="content-container">
             <div className="title-container">
                 <img className="image" src="/images/logo.png" />

@@ -23,6 +23,17 @@
 .error {
     font-size: $xl-size;
     letter-spacing: 6px;
+    padding: $s-size;
+    
+    @media (max-width: $mid-breakpoint) {
+        font-size: $l-size;
+        letter-spacing: 4px;
+    }
+
+    @media (max-width: $mobile-breakpoint) {
+        font-size: $m-size;
+        letter-spacing: 2px;
+    }
 }
 
 .text-content-about {

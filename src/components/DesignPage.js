@@ -2,7 +2,7 @@ import React from 'react';
 import {NavLink} from 'react-router-dom';
 
 const DesignPage = () => (
-    <div>
+    <div className="load-animation">
         <div className="content-container">
             <h1 className="title">Design</h1>
             <p className="text-content">This is where we turn chaos into solid form. To me, design at it's core is about pen and 

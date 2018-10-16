@@ -2,7 +2,7 @@ import React from 'react';
 import {NavLink} from 'react-router-dom';
 
 const CodePage = () => (
-    <div>
+    <div className="load-animation">
         <div className="content-container">
             <h1 className="title">Coding</h1>
             <p className="text-content">This is where I turn the design into live product. I build whole base

@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const NotFoundPage = () => (
-    <div>
+    <div className="load-animation">
         <div className="not-found">
             <p className="error">Sorry, nothing here.</p>     
         </div>    
