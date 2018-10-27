@@ -19,7 +19,7 @@ const ContactPage = () => (
                 <a className="link-grid_link" target="_empty" href="https://medium.com/@JanNowicki123">medium</a>
             </div>
             <div className="link-grid_box">
-                <a className="link-grid_link" href="mailto:newme007@gmail.com">email</a>
+                <a className="link-grid_link" href="mailto:pxl.rnnr@gmail.com">email</a>
             </div>
         </div>
         <NavLink className="home-link" to="/"exact={true}>Back</NavLink>

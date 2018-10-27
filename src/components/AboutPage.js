@@ -5,7 +5,7 @@ const AboutPage = () => (
     <div className="load-animation">
         <div className="content-container">
             <div className="title-container">
-                <img className="image" src="/images/profile.jpg" />
+                <img className="image" src="/images/profile.jpeg" />
                 <h1 className="banner-title">About me</h1>
             </div>
         </div>
